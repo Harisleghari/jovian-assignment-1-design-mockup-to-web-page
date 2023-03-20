@@ -26,11 +26,13 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  text-align: center;
 }
 
 #hero-section-div {
     display: flex;
-    max-width: 1024px;
+    max-width: 1440px;
+    min-width: 800px;
     margin: 0px auto;
 }
 
@@ -46,6 +48,7 @@ h2 {
     font-size: 12px;
     line-height: 14px;
     color: #000000;
+    cursor: pointer;
 }
 
 #hi-name {
@@ -67,6 +70,21 @@ h2 {
     color: #331e6a;
   }
 
+#contact-button {
+    width: 138px;
+    height: 44px;
+    background: #2F2F2F;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+
+color: #FFFFFF;
+}
+
 #hero-img-div {
     width: 50%;
 }
@@ -75,3 +93,34 @@ h2 {
     width: 100%;
 }
 
+#pricing-section-div {
+    max-width: 1060px;
+    min-width: 800px;
+    margin: 48px auto;
+}
+
+.over-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+    text-align: center;
+}
+
+#footer-div {
+    width: 1440px;
+    height: 58px;
+    background: #000000;
+}
+
+#footer-div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
