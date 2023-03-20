@@ -1,0 +1,77 @@
+body {
+  background-color: #fff8f0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #55206d;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #190d37;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+#hero-section-div {
+    display: flex;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+#hero-text-div {
+    width: 50%;
+    padding: 32px 20px;
+}
+
+.contact-info {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #291854;
+    margin-top: 48px;   
+}
+
+.big-text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #331e6a;
+  }
+
+#hero-img-div {
+    width: 50%;
+}
+
+#hero-img {
+    width: 100%;
+}
+
