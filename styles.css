@@ -29,11 +29,30 @@ h2 {
   text-align: center;
 }
 
+.over-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+    text-align: center;
+}
+
+.big-text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #331e6a;
+  }
+
 #hero-section-div {
     display: flex;
     max-width: 1440px;
     min-width: 800px;
-    margin: 0px auto;
+    margin: 0px auto 48px auto;
 }
 
 #hero-text-div {
@@ -61,15 +80,6 @@ h2 {
     margin-top: 48px;   
 }
 
-.big-text {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #331e6a;
-  }
-
 #contact-button {
     width: 138px;
     height: 44px;
@@ -81,8 +91,7 @@ h2 {
     font-size: 16px;
     line-height: 19px;
     cursor: pointer;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 #hero-img-div {
@@ -93,20 +102,28 @@ color: #FFFFFF;
     width: 100%;
 }
 
+#what-i-do-section-div {
+    max-width: 1060px;
+    min-width: 800px;
+    margin: 48px auto;
+}
+
+#my-procject-section-div {
+    max-width: 1060px;
+    min-width: 800px;
+    margin: 48px auto;
+}
+
 #pricing-section-div {
     max-width: 1060px;
     min-width: 800px;
     margin: 48px auto;
 }
 
-.over-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    color: #2858FF;
-    text-align: center;
+#questions-section-div {
+    max-width: 1060px;
+    min-width: 800px;
+    margin: 48px auto;
 }
 
 #footer-div {
