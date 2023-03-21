@@ -30,114 +30,288 @@ h2 {
 }
 
 .over-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    color: #2858FF;
-    text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2858ff;
+  text-align: center;
 }
 
 .big-text {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #331e6a;
-  }
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #331e6a;
+}
+
+.section-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #190d37;
+}
 
 #hero-section-div {
-    display: flex;
-    max-width: 1440px;
-    min-width: 800px;
-    margin: 0px auto 48px auto;
+  display: flex;
+  max-width: 1320px;
+  min-width: 800px;
+  margin: 0px auto 48px auto;
 }
 
 #hero-text-div {
-    width: 50%;
-    padding: 32px 20px;
+  width: 60%;
+  padding: 32px 20px;
 }
 
 .contact-info {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #000000;
-    cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  cursor: pointer;
 }
 
 #hi-name {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #291854;
-    margin-top: 48px;   
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #291854;
+  margin-top: 48px;
 }
 
 #contact-button {
-    width: 138px;
-    height: 44px;
-    background: #2F2F2F;
-    border-radius: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    cursor: pointer;
-    color: #FFFFFF;
+  width: 138px;
+  height: 44px;
+  background: #2f2f2f;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#contact-button:hover {
+  background: #ffffff;
+  color: #2f2f2f;
 }
 
 #hero-img-div {
-    width: 50%;
+  width: 40%;
 }
 
 #hero-img {
-    width: 100%;
+  width: 100%;
 }
 
 #what-i-do-section-div {
-    max-width: 1060px;
-    min-width: 800px;
-    margin: 48px auto;
+  max-width: 1060px;
+  min-width: 800px;
+  margin: 48px auto;
 }
 
 #my-procject-section-div {
-    max-width: 1060px;
-    min-width: 800px;
-    margin: 48px auto;
+  max-width: 1060px;
+  min-width: 800px;
+  margin: 48px auto;
 }
 
 #pricing-section-div {
-    max-width: 1060px;
-    min-width: 800px;
-    margin: 48px auto;
+  max-width: 1060px;
+  min-width: 800px;
+  margin: 48px auto;
+}
+
+/* #pricing-box-div {
+   
+} */
+
+#pricing-card {
+  width: 100%;
+  display: flex;
+  background-color: #fff8f0;
+}
+
+.pricing-box {
+  width: 33.33%;
+  box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#pricing-box-1 {
+  background-color: #ffffff;
+}
+
+#pricing-box-2 {
+  background-color: #ffd748;
+  margin: 0 20px;
+}
+
+#pricing-box-3 {
+  background-color: #ffffff;
+}
+
+#pricing-box-2-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.pricing-box-1-3-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2858ff;
+}
+
+.pricing-box-1-3-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+.pricing-box-1-3-price span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8a8a8a;
+}
+
+.pricing-box-2-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.pricing-box-2-price span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pricing-box-1-3-button {
+  border: 2px solid #2f2f2f;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 12px 105px 13px 105px;
+  text-align: center;
+}
+
+.pricing-box-1-3-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.pricing-box-2-button {
+  background: #000000;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 105px 13px 105px;
+}
+
+.pricing-box-2-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pricing-box-1-3-services {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #8b8b8b;
+}
+
+.pricing-box-2-services {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pricing-box-1-3-benifits {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.pricing-box-2-benifits {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 #questions-section-div {
-    max-width: 1060px;
-    min-width: 800px;
-    margin: 48px auto;
+  max-width: 1060px;
+  min-width: 800px;
+  margin: 48px auto;
 }
 
 #footer-div {
-    width: 1440px;
-    height: 58px;
-    background: #000000;
+  width: 1440px;
+  height: 58px;
+  background: #000000;
 }
 
-#footer-div p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-align: center;
+#footer-div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+  height: 58%;
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
 }
