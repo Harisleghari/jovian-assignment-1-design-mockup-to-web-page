@@ -123,10 +123,136 @@ h2 {
   margin: 48px auto;
 }
 
+#what-i-do-section-card-inner-div {
+  width: 100%;
+  display: flex;
+  background-color: #fff8f0;
+}
+
+.what-i-do-card {
+  width: 33.33%;
+  background: #FFFFFF;
+  box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.what-i-do-card-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.what-i-do-card-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #55206D;
+}
+
+#what-i-do-section-card-2-div {
+  margin: 0 20px;
+}
+
 #my-procject-section-div {
   max-width: 1060px;
   min-width: 800px;
   margin: 48px auto;
+}
+
+#my-projects-section-card-inner-div {
+  width: 100%;
+}
+
+.my-projects-section-card {
+  display: flex;
+}
+
+#my-projects-section-box-div-1 {
+  
+  background: #19ACFF;
+  border-radius: 10px;
+  padding: 0px 50px;
+}
+
+#my-projects-section-box-div-2 {
+  
+  background: #FFE819;
+  border-radius: 10px;
+  padding: 0px 50px;
+}
+
+#my-projects-section-box-div-3 {
+  
+  background: #FF1919;
+  border-radius: 10px;
+  padding: 0px 50px;
+}
+
+#my-projects-section-content-title-div-3-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #FFFFFF;
+}
+}
+
+.my-projects-section-content-title-div {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #291854;
+}
+
+.my-projects-section-content-paragraph-div {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #55206D;
+}
+
+.my-projects-section-content-link-div {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6A87A3;
+}
+
+#my-projects-section-content-title-div-2-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+}
+
+#my-projects-section-content-title-div-1-p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 #pricing-section-div {
@@ -134,10 +260,6 @@ h2 {
   min-width: 800px;
   margin: 48px auto;
 }
-
-/* #pricing-box-div {
-   
-} */
 
 #pricing-card {
   width: 100%;
