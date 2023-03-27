@@ -120,7 +120,7 @@ h2 {
 #what-i-do-section-div {
   max-width: 1060px;
   min-width: 800px;
-  margin: 48px auto;
+  margin: 96px auto;
 }
 
 #what-i-do-section-card-inner-div {
@@ -131,14 +131,14 @@ h2 {
 
 .what-i-do-card {
   width: 33.33%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
 }
 
 .what-i-do-card-title {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -149,13 +149,13 @@ h2 {
 }
 
 .what-i-do-card-paragraph {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #55206D;
+  color: #55206d;
 }
 
 #what-i-do-section-card-2-div {
@@ -165,7 +165,7 @@ h2 {
 #my-procject-section-div {
   max-width: 1060px;
   min-width: 800px;
-  margin: 48px auto;
+  margin: 98px auto;
 }
 
 #my-projects-section-card-inner-div {
@@ -177,39 +177,38 @@ h2 {
 }
 
 #my-projects-section-box-div-1 {
-  
-  background: #19ACFF;
+  background: #19acff;
   border-radius: 10px;
-  padding: 0px 50px;
 }
 
 #my-projects-section-box-div-2 {
-  
-  background: #FFE819;
+  background: #ffe819;
   border-radius: 10px;
-  padding: 0px 50px;
 }
 
 #my-projects-section-box-div-3 {
-  
-  background: #FF1919;
+  background: #ff1919;
   border-radius: 10px;
-  padding: 0px 50px;
+}
+
+#my-projects-section-card-2-div {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #my-projects-section-content-title-div-3-p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
   text-align: center;
-  color: #FFFFFF;
-}
+  color: #ffffff;
+  padding: 44px 46px 44px 47px;
 }
 
 .my-projects-section-content-title-div {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -217,48 +216,53 @@ h2 {
   color: #291854;
 }
 
+.my-projects-section-content-div {
+  margin-left: 25px;
+}
 .my-projects-section-content-paragraph-div {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #55206D;
+  color: #55206d;
 }
 
 .my-projects-section-content-link-div {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #6A87A3;
+  color: #6a87a3;
 }
 
 #my-projects-section-content-title-div-2-p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
   text-align: center;
   color: #000000;
+  padding: 44px 46px 44px 47px;
 }
 
 #my-projects-section-content-title-div-1-p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+  padding: 44px 46px 44px 47px;
 }
 
 #pricing-section-div {
   max-width: 1060px;
   min-width: 800px;
-  margin: 48px auto;
+  margin: 98px auto;
 }
 
 #pricing-card {
@@ -415,10 +419,33 @@ h2 {
 #questions-section-div {
   max-width: 1060px;
   min-width: 800px;
-  margin: 48px auto;
+  margin: 98px auto;
+}
+
+#FAQ-div {
+  margin-top: 48px;
+}
+
+.Faq-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #55206d;
+}
+
+#Faq-subheading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6a87a3;
 }
 
 #footer-div {
+  margin-top: 96px;
   width: 1440px;
   height: 58px;
   background: #000000;
