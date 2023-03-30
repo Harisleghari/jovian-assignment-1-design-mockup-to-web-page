@@ -26,6 +26,7 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  padding: 0px 114px;
   text-align: center;
 }
 
@@ -54,20 +55,25 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  text-align: center;
   color: #190d37;
+  padding: 0px 190px;
+  margin-bottom: 48px;
 }
 
 #hero-section-div {
   display: flex;
   max-width: 1320px;
   min-width: 800px;
-  margin: 0px auto 48px auto;
+  margin: 0px 0px 48px auto;
 }
 
 #hero-text-div {
   width: 60%;
   padding: 32px 20px;
+}
+
+#intro-heading span{
+  font-weight: 400;
 }
 
 .contact-info {
@@ -143,7 +149,6 @@ h2 {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
@@ -154,7 +159,6 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
   color: #55206d;
 }
 
@@ -176,27 +180,20 @@ h2 {
   display: flex;
 }
 
-#my-projects-section-box-div-1 {
-  background: #19acff;
-  border-radius: 10px;
-}
-
-#my-projects-section-box-div-2 {
-  background: #ffe819;
-  border-radius: 10px;
-}
-
-#my-projects-section-box-div-3 {
-  background: #ff1919;
-  border-radius: 10px;
-}
-
 #my-projects-section-card-2-div {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 #my-projects-section-content-title-div-3-p {
+  width: 580px;
+  height: 180px;
+  background: #ff1919;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#my-projects-section-content-title-div-3-p p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -204,7 +201,7 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #ffffff;
-  padding: 44px 46px 44px 47px;
+  padding: 13px 16px 13px 17px;
 }
 
 .my-projects-section-content-title-div {
@@ -238,6 +235,14 @@ h2 {
 }
 
 #my-projects-section-content-title-div-2-p {
+  width: 580px;
+  height: 180px;
+  background: #ffe819;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#my-projects-section-content-title-div-2-p p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -245,10 +250,18 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #000000;
-  padding: 44px 46px 44px 47px;
+  padding: 13px 16px 13px 17px;
 }
 
 #my-projects-section-content-title-div-1-p {
+  width: 580px;
+  height: 180px;
+  background: #19acff;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#my-projects-section-content-title-div-1-p p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -256,9 +269,8 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #ffffff;
-  padding: 44px 46px 44px 47px;
+  padding: 13px 16px 13px 17px;
 }
-
 #pricing-section-div {
   max-width: 1060px;
   min-width: 800px;
@@ -445,19 +457,13 @@ h2 {
 }
 
 #footer-div {
-  margin-top: 96px;
-  width: 1440px;
-  height: 58px;
-  background: #000000;
-}
-
-#footer-div {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  width: 100%;
+  max-width: 1320px;
+  min-width: 800px;
   height: 58%;
   text-align: center;
   padding: 20px;
