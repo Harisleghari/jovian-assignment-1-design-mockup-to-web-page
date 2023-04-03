@@ -27,7 +27,7 @@ h2 {
   line-height: 40px;
   color: #000000;
   padding: 0px 114px;
-  text-align: center;
+  text-align: left;
 }
 
 .over-title {
@@ -56,13 +56,14 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   color: #190d37;
-  padding: 0px 190px;
   margin-bottom: 48px;
+  text-align: left;
+  padding: 0px 114px;
 }
 
 #hero-section-div {
   display: flex;
-  max-width: 1320px;
+  width: 100%;
   min-width: 800px;
   margin: 0px 0px 48px auto;
 }
@@ -72,7 +73,11 @@ h2 {
   padding: 32px 20px;
 }
 
-#intro-heading span{
+#intro-heading {
+  width: 65%;
+}
+
+#intro-heading span {
   font-weight: 400;
 }
 
@@ -94,6 +99,7 @@ h2 {
   line-height: 19px;
   color: #291854;
   margin-top: 48px;
+  width: 65%;
 }
 
 #contact-button {
@@ -121,6 +127,7 @@ h2 {
 
 #hero-img {
   width: 100%;
+  border-bottom-right-radius: 150px;
 }
 
 #what-i-do-section-div {
@@ -141,6 +148,7 @@ h2 {
   box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
+  text-align: center;
 }
 
 .what-i-do-card-title {
@@ -201,7 +209,7 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #ffffff;
-  padding: 13px 16px 13px 17px;
+  padding: 6px 16px 0px 17px;
 }
 
 .my-projects-section-content-title-div {
@@ -250,7 +258,7 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #000000;
-  padding: 13px 16px 13px 17px;
+  padding: 6px 16px 0px 17px;
 }
 
 #my-projects-section-content-title-div-1-p {
@@ -269,7 +277,7 @@ h2 {
   line-height: 72px;
   text-align: center;
   color: #ffffff;
-  padding: 13px 16px 13px 17px;
+  padding: 6px 16px 0px 17px;
 }
 #pricing-section-div {
   max-width: 1060px;
@@ -462,7 +470,7 @@ h2 {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  max-width: 1320px;
+  width: 100%;
   min-width: 800px;
   height: 58%;
   text-align: center;
